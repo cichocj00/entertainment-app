@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .heading-lg {
+    @apply text-[2rem] font-light text-white;
+  }
+
+  .heading-md {
+    @apply text-2xl font-light text-white;
+  }
+
+  .heading-sm {
+    @apply text-2xl font-medium text-white;
+  }
+
+  .heading-xs {
+    @apply text-lg font-medium text-white;
+  }
+
+  .body-md {
+    @apply text-[0.9375rem] font-light text-white;
+  }
+
+  .body-s {
+    @apply text-[0.8125rem] font-light text-white;
+  }
+}
