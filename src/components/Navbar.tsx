@@ -11,7 +11,7 @@ const Navbar = ({ styles }: { styles: string }): JSX.Element => {
     <div
       className={clsx(
         styles,
-        'flex w-full max-w-screen-md items-center justify-between rounded-xl bg-blue-semiDark px-4 py-[18px] lg:max-h-full lg:w-[96px] lg:flex-col lg:px-0 lg:py-12',
+        'flex w-full max-w-screen-md items-center justify-between rounded-xl bg-blue-semiDark px-4 py-[18px] lg:max-h-full lg:w-[96px] lg:flex-col lg:px-0 lg:py-8',
       )}
     >
       <Link to="/">
